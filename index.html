@@ -797,7 +797,7 @@
                 EXPERTISE
               </h3>
               <p class="subtitle-a">
-                what i like to do
+                What I like to do
               </p>
               <div class="line-mf"></div>
             </div>
@@ -913,31 +913,26 @@
             </div>
             <div class="row" style="margin-top: 0;">
               <div class="col-md-12">
-                <ul class="publication-list">
-                  <li class="publication-item">
                     <div class="publication-details">
                       <span class="publication-title"><b>Mobile Covid Sanitization Robot</span><br></b>
                       <span class="publication-authors"> <b>Anusha Madan</b>; Arati Ganesh; Preethi N; Sahana Bandekar; A.N. Nagashree</span><br>
                       <span class="publication-journal"> 2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA), IEEE Explore</span>
                     </div>
                     <div class="publication-buttons">
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Abstract</button>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button>
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Abstract</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
                             <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
                           <div class="modal-body" style="text-align: justify;">
                             <li>This paper presents the development of a robotic system called "Covid Bot," designed for sanitizing environments to help control the spread of COVID-19. It includes a detailed design and implementation of both software and hardware components. </li>
-
                             <li>Technical Specifications: The robot uses MQTT protocol for tele-operation, Raspberry Pi as the controller, and incorporates features like a camera, sensors, and a sanitizing mechanism. It's designed to operate remotely for efficient sanitization.</li>
-                            
                             <li>Functionality: The robot can perform sanitization through a spray system and a hand sanitizer dispenser. It's equipped with a camera and sensors for navigation and obstacle avoidance. </li>
-                            
                             <li>Results and Potential Improvements: The robot demonstrated effective sanitization capabilities in controlled environments. Future improvements could include autonomous navigation and more sophisticated control systems for the sanitization process. </li>
                           </div>
                           <div class="modal-footer">
@@ -946,10 +941,8 @@
                         </div>
                       </div>
                     </div>
-                    <a href="https://ieeexplore.ieee.org/document/9588769/references#references" class="btn btn-secondary">PDF</a>
+                    <a href="https://ieeexplore.ieee.org/document/9588769/references#references" class="btn btn-secondary">Link</a>
                     </div>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -1145,39 +1138,46 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  1. Preprocessing and Eigenface Computation
+                                  <b> Preprocessing and Eigenface Computation </b>
                                   Utilization of a dataset with 1071 grayscale face images (64x64 resolution).
                                   Implementation of image preprocessing in both MATLAB and Python, including conversion to double precision and unraveling images into vectors.
-                                  Introduction to eigenfaces concept: faces approximated by linear combinations of eigenfaces.
-                                  2. Computing Eigenfaces with Karhunen-Loève Expansion (KLE)
+                                  Introduction to eigenfaces concept: faces approximated by linear combinations of eigenfaces.  </li>
+
+                                  <li>
+                                    <b> Computing Eigenfaces with Karhunen-Loève Expansion (KLE) </b>
 
                                   Extraction of eigenfaces using Singular Value Decomposition (SVD).
                                   Transformation of eigenface vectors into image format for visualization.
-                                  Analysis of the first eigenface and computation of reconstruction error as a function of the number of eigenfaces (up to 100).
-                                  3. Computing ICA Faces with FOBI (FastICA-Based Blind Source Separation)
+                                  Analysis of the first eigenface and computation of reconstruction error as a function of the number of eigenfaces (up to 100). </li>
+
+                                  <li>
+                                    <b>Computing ICA Faces with FOBI (FastICA-Based Blind Source Separation) </b>
 
                                   Implementation of Independent Component Analysis (ICA) using FOBI.
                                   Comparison of ICA faces and eigenfaces in terms of basis vector orthogonality and reconstruction error characteristics.
-                                  Exploration of the impact of different numbers of ICA components on the quality of the resultant ICA faces.
-                                  4. Adaboost Implementation for Classification
+                                  Exploration of the impact of different numbers of ICA components on the quality of the resultant ICA faces. </li>
+
+                                  <li>
+                                    <b> Adaboost Implementation for Classification </b>
 
                                   Development of an Adaboost training algorithm to combine weak classifiers into a strong classifier.
-                                  Design of an Adaboost prediction function to classify new data samples.
-                                  5. Training Adaboost with Eigenfaces and ICA Faces
+                                  Design of an Adaboost prediction function to classify new data samples. </li>
+
+                                  <li>
+                                    <b> Training Adaboost with Eigenfaces and ICA Faces</b>
 
                                   Rescaling images to 19x19 and recomputing eigenfaces and ICA faces.
                                   Training Adaboost models using eigenfaces and ICA faces as features, with varying numbers of weak classifiers and eigenfaces.
-                                  Analysis of classification errors and comparison between eigenface and ICA face representations.
-                                  6. Face Detector Application
+                                  Analysis of classification errors and comparison between eigenface and ICA face representations. </li>
+                                  
+                                  <li>
+                                   <b>Face Detector Application </b>
 
                                   Application of the trained Adaboost model for face detection in a specific image.
                                   Implementation of non-maximum suppression to refine detection results.
-                                  Evaluation of the model's performance based on Intersection-of-Union (IoU) values and total number of detected bounding boxes.
-                                  7. Project Outcomes and Observations
-
-                                  Detailed documentation of methodologies, algorithms, and results.
-                                  Comparative analysis of different techniques and parameter settings.
-                                  Identification of best-performing configurations and potential areas for further improvement.
+                                  Evaluation of the model's performance based on Intersection-of-Union (IoU) values and total number of detected bounding boxes. </li>
+                                 
+                                
                                 </li>
                               </ul>
                             </div>
@@ -1236,9 +1236,9 @@
                                 <span class="right-align">Jun 2020 - Aug 2020</span>
                               </p>
                               <ul style="font-size: 13px;">
-                                <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
-                                </li>
+                                <li>Delivered the integration between multiple micro-services to facilitate communications to complete an APN order successfully for the Wireless VPN Orchestration Domain Manager (wVPN ODM). Won the Dream Team Award for the Annual Quarterly Awards - Q4, 2021-2022 for successfully automating the orchestration of the first 3 APN orders in production and reducing the SLA by 5-7 days.</li>
+                                <li>Migrated the orchestrator backend from SeaStreet to Camunda which offers several advantages for scaling and improving effectiveness. Supported and activated new production orders.</li>
+                                <li>Supporting the integration of APIs with CSM, Magpie and IP Mobile Activation Teams</li>
                               </ul>
                             </div>
                             <div class="modal-footer">
@@ -1297,7 +1297,7 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Engineered the PAC0410 Database Automation System as part of Wireless VPN mission's development team. Responsible for developing API Capability for data consumption and transformed a 20-year-old Enterprise spreadsheet containing information on network components into a strategic DB by incorporating data consistency and security checks. Developed comprehensive MySQL scripts to replace legacy spreadsheet macros for network load assurance purposes.
                                 </li>
                               </ul>
                             </div>
@@ -1357,7 +1357,7 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Collaborated on building the My Telstra Portal to view and manage mobile and broadband plans for customers, make payments, track data usage, and shop for tech devices and accessories.
                                 </li>
                               </ul>
                             </div>
@@ -1418,7 +1418,7 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Developed the Employee Resource Management Portal to assist resource planning, management, and allocation of resources of a company. It aimed to overcome the challenges of conflicting resource priorities and help accurately predict future requirements, thus improving profitability levels and streamlining costs.
                                 </li>
                               </ul>
                             </div>
@@ -1478,7 +1478,11 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                                                    
+                                  Engineered a mobile sanitation robot to assist front-line workers and the general public in curbing the spread of COVID-19,
+                                  leveraging MQTT for remote communications, Robot Operating System(ROS) for localization and mapping of the bot.
+                                  Showcased research findings at the 2021 International Symposium of the Asian Control Association on Intelligent Robotics
+                                  and Industrial Automation(IRIA)
                                 </li>
                               </ul>
                             </div>
@@ -1538,7 +1542,7 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Developed mechanical models of the smart cane and headgear subsystems on AutoDesk Fusion 360 and simulated the results on Proteus 8 software. Worked with Enable India, an NGO for the blind in India. Responsible for implementing the YOLO algorithm on the Coco-Dataset for object detection.
                                 </li>
                               </ul>
                             </div>
@@ -1598,7 +1602,8 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Implemented SVM algorithms on the generated wrist movement dataset from an IMU sensor to distinguish between
+tonic/clonic seizures as part of the Smart India Hackathon 2020.
                                 </li>
                               </ul>
                             </div>
@@ -1657,7 +1662,9 @@
                               </p>
                               <ul style="font-size: 13px;">
                                 <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
+                                  Collaborated on building an interface that recognizes the user using template matching and allows them to control and
+navigate through the GUI using hand gestures using OpenCV and PyAutoGUI libraries. Made use of concepts such as
+ROI, thresholding, and background subtraction.
                                 </li>
                               </ul>
                             </div>
@@ -1717,9 +1724,10 @@
                                 <span class="right-align">Jun 2020 - Aug 2020</span>
                               </p>
                               <ul style="font-size: 13px;">
-                                <li>
-                                  -Researched Convolution Neural Networks for face recognition systems to understand their vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis
-                                </li>
+                              <li>Researched Convolution Neural Networks for face recognition systems to understand their
+                              vulnerabilities, Histogram of Gradients (HOG) for detecting facial landmarks. </li>
+                              <li> Studied SLAM technologies and Kalman filters to implement on an autonomous donkey car vehicle. </li>
+                              <li> Worked on Calibration of Cameras, image processing using filters and edge detectors to extract useful data for image/video analysis. </li>
                               </ul>
                             </div>
                             <div class="modal-footer">
